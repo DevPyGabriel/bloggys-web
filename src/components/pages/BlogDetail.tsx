@@ -1,8 +1,13 @@
 import { useParams } from 'react-router-dom'
+import { useEffect } from 'react'
 import { blogs } from "../../data/blogs";
 
 export const BlogDetail = () => {
   const { id } = useParams<{ id: string }>()
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   const blog = blogs[parseInt(id || '0')]
 
