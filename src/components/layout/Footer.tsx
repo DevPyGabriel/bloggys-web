@@ -6,26 +6,14 @@ export const Footer = () => {
       <div className="mx-auto w-full max-w-7xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <a href="https://flowbite.com/" className="flex items-center text-blue-500">
+            <a href="#" className="flex items-center text-blue-500">
               <Icons.Logo size={32} />
               <span className="text-heading self-center text-2xl font-bold whitespace-nowrap ms-2">
                 Bloggy
               </span>
             </a>
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-            <div>
-              <h2 className="mb-6 text-sm font-semibold text-heading uppercase">
-                Recursos
-              </h2>
-              <ul className="text-body font-medium">
-                <li className="mb-4">
-                  <a href="https://flowbite.com/" className="hover:underline">
-                    Docs
-                  </a>
-                </li>
-              </ul>
-            </div>
+          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2">
             <div>
               <h2 className="mb-6 text-sm font-semibold text-heading uppercase">
                 Siguenos
@@ -33,7 +21,7 @@ export const Footer = () => {
               <ul className="text-body font-medium">
                 <li className="mb-4">
                   <a
-                    href="https://github.com/themesberg/flowbite"
+                    href="/"
                     className="hover:underline "
                   >
                     Instagram
@@ -41,7 +29,7 @@ export const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="https://discord.gg/4eeurUVvTy"
+                    href="/"
                     className="hover:underline"
                   >
                     Facebook
@@ -72,7 +60,7 @@ export const Footer = () => {
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-body sm:text-center">
             © 2026{" "}
-            <a href="https://flowbite.com/" className="hover:underline">
+            <a href="/" className="hover:underline">
               Bloggys™
             </a>
             . Algunos derechos reservados.
