@@ -73,7 +73,7 @@ export const Footer = () => {
           <span className="text-sm text-body sm:text-center">
             © 2026{" "}
             <a href="https://flowbite.com/" className="hover:underline">
-              Bloggy™
+              Bloggys™
             </a>
             . Algunos derechos reservados.
           </span>
