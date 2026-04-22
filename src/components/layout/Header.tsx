@@ -49,9 +49,9 @@ export const Header = () => {
         </div>
 
         <div 
-          className={`absolute top-18 right-0 shadow-xl ${isMenuOpen ? 'scale-100 opacity-100 visible' : 'scale-0 opacity-0 invisible'} transition-all duration-200 origin-top-right`}
+          className={`absolute top-18 right-0 ${isMenuOpen ? 'scale-100 opacity-100 visible' : 'scale-0 opacity-0 invisible'} transition-all duration-200 origin-top-right overflow-clip`}
         >
-          <div className="bg-white flex flex-col items-end divide-y divide-gray-200 rounded-lg overflow-clip">
+          <div className="bg-white flex flex-col items-end divide-y divide-gray-200 rounded-lg overflow-clip shadow-xl">
             <Link
               onClick={() => setIsMenuOpen(false)}
               to="/"
