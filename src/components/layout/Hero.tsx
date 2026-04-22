@@ -2,7 +2,7 @@ import Icons from "../Icons";
 
 export const Hero = () => {
   return (
-    <div className="py-6">
+    <div className="">
       <div className="flex lg:flex-row flex-col items-center lg:w-full justify-between gap-8">
         <img
           src="./hero.webp"
